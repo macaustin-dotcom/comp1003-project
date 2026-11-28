@@ -214,3 +214,148 @@ body {
 .product-card:hover {
     transform: translateY(-5px);
 }
+
+/* About Page Classes */
+/* About page Hero */
+.about-hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+    padding: 70px 5%;
+}
+
+.about-hero-content {
+    max-width: 600px;
+
+}
+
+.about-label {
+    color: var(--oxblood);
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.about-hero h1 {
+    font-size: (40px, 6vw, 80px);
+    line-height: 1;
+    margin: 20px 0;
+
+}
+
+.about-hero p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.about-hero img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+/* Brand story section */
+.about-story {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 5%;
+    background-color: white;
+}
+
+.about-story-image img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.about-story-content h2 {
+    font-size: clamp(30px, 4vw, 50px);
+    line-height: 1.1;
+}
+
+.about-story-content p {
+    line-height: 1.8;
+}
+
+/* Timeline section about page */
+
+.about-timeline {
+    padding: 80px 5%;
+
+}
+
+.timeline-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px;
+}
+
+.timeline-heading h2 {
+    font-size: clamp(30px, 4vw, 50px);
+
+}
+
+.timeline-heading p {
+    line-height: 1.7;
+}
+
+.timeline {
+    display: grid;
+    grid-template-columns: repeat (5, 1fr);
+    gap: 25px;
+}
+
+.timeline-item {
+border-top: 5px solid var(--yellow);
+padding-top: 20px;
+}
+
+.timeline-item h3 {
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.timeline-item h4 {
+    font-size: 16px;
+}
+
+.timeline-item p{
+    line-height: 1.7;
+}
+
+/* Brand identity section in about us */
+
+.about-identity {
+    background-color: var(--black);
+    color: white;
+    padding: 80px 5%;
+
+}
+
+.about-identity-content {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-identity h2 {
+    font-size: clamp(40px, 6vw, 70px);
+    line-height: 1.1;
+}
+
+.about-identity p {
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.about-identity .about-label {
+    color: var(--yellow);
+    
+}
+
+.about-identity .button {
+    margin-top: 25px;
+}
